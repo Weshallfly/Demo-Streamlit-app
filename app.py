@@ -55,7 +55,7 @@ def main():
             if num2 != 0:
                 result = num1 / num2
             else:
-                st.error("Error: Division by zero!! You fool !!")
+                st.error("Error: Division by zero!!! You fool !!!")
                 return
 
         st.write(f"Answer: {result}")
